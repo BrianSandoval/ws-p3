@@ -28,7 +28,7 @@ try {
 
         /* Generar un token de seguridad */
         require_once 'token.generar.php';
-        $token = generarToken(null, 30);
+        $token = generarToken(null, 60 * 60);
         $resultado["token"] = $token;
         /* Generar un token de seguridad */
 
